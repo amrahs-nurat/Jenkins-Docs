@@ -75,3 +75,4 @@ D) send files or execute commands over SSH
 ```
 Note: if we get permission issue while Building the Job then change ownership of /opt/docker/ directory to dockeradmin user.
 `chown -R dockeradmin:dockeradmin /opt/docker/`
+11. Repeat Build by making change in index.jsp file. so it should delete previous container and create new one using updated information.
