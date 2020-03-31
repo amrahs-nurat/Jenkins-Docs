@@ -33,7 +33,7 @@ COPY ./webapp.war /usr/local/tomcat/webapps
 
 5. Login to Jenkins console and add Docker server to execute commands from Jenkins  
 Manage Jenkins --> Configure system -->  Publish over SSH --> add Docker server and credentials
-Note: If we get error while Test the connection, then must be allow PasswordBasedAuthentication on the Ec2 Instance.
+`Note: If we get error while Test the connection, then must be allow PasswordBasedAuthentication on the Ec2 Instance.`
 
 6. Create Jenkins job 
 
@@ -73,3 +73,5 @@ D) send files or execute commands over SSH
 ```
 <docker_host_Public_IP>:8090
 ```
+Note: if we get permission issue while Building the Job then change ownership of /opt/docker/ directory to dockeradmin user.
+`chown -R dockeradmin:dockeradmin /opt/docker/`
