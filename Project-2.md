@@ -7,7 +7,7 @@ In this Project:
 - Write a playbook to copy jar/war file on to tomcat server
 - Modify jenkins Jobs to copy Artifacts and initiate Ansible Playbook
 
-In this Project i'm going to use three different server with its proper configuration:
+In this Project i'm going to use three different servers (vms or cloud instances) with its proper configuration:
 
 - For Jenkin Server
 - For Tomcat Server
