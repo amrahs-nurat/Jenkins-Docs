@@ -24,7 +24,7 @@ node {
 }
 ```
 
-#### How to install package into python environment:
+#### How to install package into python environment: 
 
 ```
 node {
@@ -40,4 +40,4 @@ node {
     
 }
 ```
-
+Note: jenkins ALL=(ALL:ALL) NOPASSWD: ALL
