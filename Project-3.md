@@ -52,16 +52,16 @@ C) send files or execute commands over SSH
  Remote directory	: `//opt//docker`  
  Exec command[s]	: 
   ```sh
-  docker stop valaxy_demo;
-  docker rm -f valaxy_demo;
-  docker image rm -f valaxy_demo;
+  docker stop galaxy_demo;
+  docker rm -f galaxy_demo;
+  docker image rm -f galaxy_demo;
   cd /opt/docker;
-  docker build -t valaxy_demo .
+  docker build -t galaxy_demo .
   ```
 
 D) send files or execute commands over SSH  
   Name: `docker_host`  
-  Exec command	: `docker run -d --name valaxy_demo -p 8090:8080 valaxy_demo`  
+  Exec command	: `docker run -d --name galaxy_demo -p 8090:8080 galaxy_demo`  
 
 7. Login to Docker host and check images and containers. (no images and containers)
 
